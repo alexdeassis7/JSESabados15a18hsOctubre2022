@@ -37,7 +37,7 @@ y podemos crear archivos .java que comienzan !# y se pueden ejecutar como si fue
 podemos hacer un .sh con java y ejecutarlos desde el cmd sin incluso utilizar la palabra java delante jaja esto
 nos puede servir tambien para probar fragmentos de codigo sin mucha vuelta o hacer scripteria en java
 
--------------------------------------- # borrado de librerias importantes en java 11 del paquete jse
+ # borrado de librerias importantes en java 11 del paquete jse
 
 
 JAXB java.xml.bind (mapeo de xml a POJO)
@@ -50,7 +50,7 @@ JavaBeans Activation  java .activation
 lo bueno que las app que viven en un server java pueden seguir usando las librerias del JEE , ya que estas librerias solo se eliminan
 del JSE, lo bueno es que lo podemos agregar por fuera siempre y cuando este disponible la implementacion de alguien
  
---------------------------------------------- # borrado de metodos importantes
+ # borrado de metodos importantes
 
 -clase thread se borro el metodo destroy() y stop() ya que son metodos peligrosos
 
@@ -61,7 +61,7 @@ del JSE, lo bueno es que lo podemos agregar por fuera siempre y cuando este disp
 -lo metodos checkAwtEventQueueAccess , checkSystemClipboardAccess ,checkMemeberAccess ,checkTopLevelWindows estos
 estaban en la clase SecurityManager borrados ya que no se usa mas tegnologias de escritorio
  
----------------------------------------------#  borrado de tecnologia obsoletas importantes
+#  borrado de tecnologia obsoletas importantes
 --applet son eliminados es algo re obsoleto  borrado
 
 --java web start borrado
@@ -70,7 +70,7 @@ estaban en la clase SecurityManager borrados ya que no se usa mas tegnologias de
 
 --el proyecto JavaFX se mueve a fuera del JDK a un proyecto aparte pero se publica todo por maven central repository
 
-----------------------------------------# novedades en el lenguaje y en la librerias
+# novedades en el lenguaje y en la librerias
 
 -renovaron el http cliente con este nuevo paquete que seria el cambio mayor y perminte web sockect y https  para trabajar
 
@@ -91,7 +91,7 @@ la visivilidad de atributos privados en estos casos , esto ahora ya no se genera
 que permites que sea mas flexible el java a la espera de nueva mejoras en la plataforma
 
 
---------------------------------------------------------------#  mejoras de rendimiento y seguridad del sistema en java 11
+#  mejoras de rendimiento y seguridad del sistema en java 11
     MEJORAS DE RENDIMIENTO :se agregaron 2 garbabe collectors nuevos para mejorar el rendimiento
 
 -el garbaje collector 1 digamos nuevo que se llama Epsilon GC -que en realidad no recoge basura - si habilitamos esto la JVM seguira asignando
@@ -114,7 +114,7 @@ significa que tenemos 4 bit menos para la direccion real del objeto igual asi mi
  o el -XX:UseEpsilonGC
 
 
--- # MEJORAS DE SEGURIDAD: TLS 1.3
+# MEJORAS DE SEGURIDAD: TLS 1.3
 
 --TLS significa Transport Layer Security y es un protocolo que se utiliza entre otras cosas para el https , aca en esta version 1.3 se quitaron algoritmos
 criptograficos inseguros y se agregaron algoritmos  nuevos mas seguros, en java 11 se implementaron varias cosas del TLS nuevo pero no todo ...
